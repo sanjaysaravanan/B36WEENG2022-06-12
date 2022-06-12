@@ -1,0 +1,66 @@
+
+Recap:
+
+  map, filter, find, reduce
+
+  map vs forEach
+
+  forEach:
+    use: iterate throw array
+    returnType: undfined
+  
+  map:
+    use: iterate throw each element and collect all the return of each iteration
+    returnType: array of all the return on each iteration
+
+  filter:
+    use: iterate the array and collects/filters the element which meets the condition into an arr
+    returnType: array of filtered elements
+
+  find:
+    use: iterate and collect the first element that matches the condition
+    returnType: first element which matched the condition
+  
+  reduce:
+    use: uses a callback/reducer function which iterates as 1st element( 0 index ) --> prevVal, 2n(1 index) --> currVal. further iteration accumulates all the value to prevVal and atlast prevVal  is returned. If an initial then iteration initialValue --> prevVal, 1st element(0 index) --> currVal
+
+    returnType: accumulated value in prevVal
+
+  vscode extension list
+
+
+
+Topics:
+
+
+  HTML --> Hyper Text Mark Up Language
+
+  body: browser parses all the content inside and displays it in the view area of a browser
+  head: tells/describes about the web-page. 
+    title -> title for the page
+    browser tab icon -> link rel
+
+
+  DOM structure -> skeleton of a webpage
+    HTML
+      | --> HEAD
+      | --> BODY
+              | --> H1
+              | --> b
+  
+  Tags, attributes
+    anchor, table(design table task), p, list, 
+    
+    basic styling, CSS ---> Cascading Style Sheet --> beautification, cosmetic of webpage
+
+      basically a style only under certain keys with certain values
+        key: value pair ( set keys already defined for css with certains values )
+
+  forms:
+    input element, lable
+
+    form submit
+
+  
+
+  
